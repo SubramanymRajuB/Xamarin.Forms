@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+              BackgroundColor="#D5E7FA" x:Class="AppSettingsSample.Views.HomePage">
+   <StackLayout Padding="40,60,40,0" Spacing="30">    
+            <Label Text="User Details" TextColor="Blue" HorizontalOptions="CenterAndExpand" FontSize="30"/>    
+            <StackLayout Spacing="10"> 
+            <Label Text="UserName:" Font="20" TextColor="Black" HorizontalOptions="FillAndExpand"/>
+            <Label Text="{Binding UserName}" HorizontalOptions="FillAndExpand" TextColor="Gray"/> 
+            <Label Text="Mobile Number:" Font="20" HorizontalOptions="FillAndExpand" TextColor="Black"/>
+            <Label Text="{Binding MobileNumber}" HorizontalOptions="FillAndExpand" TextColor="Gray"/>  
+            <Button Text="Logout" HorizontalOptions="FillAndExpand" TextColor="Blue" Command="{Binding LogoutCommand}" HeightRequest="40"  BackgroundColor="White"/>    
+            </StackLayout>    
+     </StackLayout>     
+</ContentPage>

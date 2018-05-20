@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+              BackgroundColor="#D5E7FA" x:Class="AppSettingsSample.Views.LoginPage">  
+   <StackLayout Spacing="20" Margin="10" VerticalOptions="Center">    
+            <Entry Placeholder="User Name" Text="{Binding UserName}" HeightRequest="40" HorizontalOptions="FillAndExpand"  TextColor="Gray" BackgroundColor="White"/>    
+            <Entry Placeholder="Password" Text="{Binding Password}" IsPassword="true" HeightRequest="40" HorizontalOptions="FillAndExpand"  TextColor="Gray" BackgroundColor="White"/>
+            <Entry Placeholder="Mobile Number" Keyboard="Telephone" Text="{Binding MobileNumber}" HeightRequest="40" HorizontalOptions="FillAndExpand"  TextColor="Gray" BackgroundColor="White"/>        
+            <Button Text="Login" HorizontalOptions="FillAndExpand" TextColor="Blue" Command="{Binding LoginCommand}" HeightRequest="40"  BackgroundColor="White"/>    
+            </StackLayout>  
+</ContentPage>  

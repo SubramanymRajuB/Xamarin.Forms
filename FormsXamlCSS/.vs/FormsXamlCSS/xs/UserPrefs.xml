@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{042E6801-702D-4598-BAF6-A4258F0F44D2}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FormsXamlCSS/MainPage.xaml">
+    <Files>
+      <File FileName="FormsXamlCSS/Assets/styles.css" Line="23" Column="1" />
+      <File FileName="FormsXamlCSS/MainPage.xaml.cs" Line="23" Column="6" />
+      <File FileName="FormsXamlCSS/MainPage.xaml" Line="14" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.FormsXamlCSS.Droid PreferredExecutionTarget="Android.Pixel_2_XL_API_23" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
+  <MonoDevelop.Ide.ItemProperties.FormsXamlCSS.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.9302680D-9151-4402-9619-AAFCD6840324">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.FormsXamlCSS.iOS>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{380D3BEB-6707-4B37-A410-50BF3864ADA3}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AppSettingsSample/Views/LoginPage.xaml.cs">
+    <Files>
+      <File FileName="AppSettingsSample/Helpers/UserSettings.cs" Line="44" Column="2" />
+      <File FileName="Droid/Helpers/Settings.cs" Line="1" Column="1" />
+      <File FileName="iOS/Helpers/Settings.cs" Line="1" Column="1" />
+      <File FileName="AppSettingsSample/App.xaml.cs" Line="13" Column="1" />
+      <File FileName="AppSettingsSample/Views/LoginPage.xaml" Line="10" Column="17" />
+      <File FileName="AppSettingsSample/Views/LoginPage.xaml.cs" Line="17" Column="1" />
+      <File FileName="AppSettingsSample/Views/HomePage.xaml" Line="15" Column="1" />
+      <File FileName="AppSettingsSample/Views/HomePage.xaml.cs" Line="17" Column="1" />
+      <File FileName="AppSettingsSample/ViewModels/BasePageViewModel.cs" Line="46" Column="1" />
+      <File FileName="AppSettingsSample/ViewModels/HomePageViewModel.cs" Line="24" Column="1" />
+      <File FileName="AppSettingsSample/ViewModels/LoginPageViewModel.cs" Line="23" Column="1" />
+      <File FileName="AppSettingsSample/obj/Debug/AppSettingsSample.Views.LoginPage.xaml.g.cs" Line="1" Column="1" />
+      <File FileName="AppSettingsSample/obj/Debug/AppSettingsSample.Views.HomePage.xaml.g.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/user/Desktop/Desktop/Articles/AppSettingsSample/AppSettingsSample/ViewModels/HomePageViewModel.cs" relfile="AppSettingsSample/ViewModels/HomePageViewModel.cs" line="18" column="1" />
+      <Breakpoint file="/Users/user/Desktop/Desktop/Articles/AppSettingsSample/AppSettingsSample/ViewModels/LoginPageViewModel.cs" relfile="AppSettingsSample/ViewModels/LoginPageViewModel.cs" line="15" column="1" />
+      <Breakpoint file="/Users/user/Desktop/Desktop/Articles/AppSettingsSample/AppSettingsSample/ViewModels/LoginPageViewModel.cs" relfile="AppSettingsSample/ViewModels/LoginPageViewModel.cs" line="19" column="48" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.AppSettingsSample.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.9302680D-9151-4402-9619-AAFCD6840324">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.AppSettingsSample.iOS>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.AppSettingsSample.Droid PreferredExecutionTarget="Android.Pixel_2_XL_API_23" />
+</Properties>

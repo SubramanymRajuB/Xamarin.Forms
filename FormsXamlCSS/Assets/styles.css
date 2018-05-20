@@ -1,0 +1,22 @@
+﻿^contentpage {
+    background-color: white
+}
+
+stacklayout {
+    margin: 20;
+    background-color: lightgray;
+
+}
+
+.detailPageTitle {
+    font-style: bold;
+    font-size: 35;
+    margin-left: 10;
+}
+
+.detailPageSubtitle {
+    text-align: center;
+    font-style: italic;
+    font-size: medium;
+
+}

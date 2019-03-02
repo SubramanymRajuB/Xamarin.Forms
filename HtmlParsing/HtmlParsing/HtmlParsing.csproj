@@ -13,4 +13,7 @@
     <PackageReference Include="Xamarin.Forms" Version="3.1.0.697729" />
     <PackageReference Include="HtmlAgilityPack" Version="1.9.1" />
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="README.md" />
+  </ItemGroup>
 </Project>

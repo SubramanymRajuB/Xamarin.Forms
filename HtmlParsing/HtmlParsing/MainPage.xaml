@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:HtmlParsing" x:Class="HtmlParsing.MainPage">
+    <StackLayout Spacing="10" Margin="10">
+        <!-- Place new controls here -->
+        <Label Text="HTML Parsing" HorizontalOptions="CenterAndExpand" FontAttributes="Bold" VerticalOptions="Start" FontSize="Large" Margin="0,30,0,0" />
+        <Image x:Name="myImage" VerticalOptions="FillAndExpand"/>
+    </StackLayout>
+</ContentPage>

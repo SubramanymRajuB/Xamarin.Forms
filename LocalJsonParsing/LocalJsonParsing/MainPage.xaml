@@ -6,7 +6,7 @@
                 <RowDefinition Height="Auto"/>  
                 <RowDefinition Height="*"/>  
             </Grid.RowDefinitions>  
-            <Label Grid.Row="0" Margin="10" Text="JSON Parsing" FontSize="25" />  
+            <Label Grid.Row="0" Margin="30" Text="Local JSON Parsing" FontSize="25" />  
             <ListView x:Name="listviewConacts" Grid.Row="1" HorizontalOptions="FillAndExpand" Footer="" HasUnevenRows="True">  
                 <ListView.ItemTemplate>  
                     <DataTemplate>  

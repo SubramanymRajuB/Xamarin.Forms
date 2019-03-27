@@ -35,6 +35,15 @@ namespace HideListViewScroll.ViewModels
             ContactList.Add(new Contact() { Name = "Sudheer Varma" });
             ContactList.Add(new Contact() { Name = "Test FirstName" });
             ContactList.Add(new Contact() { Name = "Last Name" });
+            ContactList.Add(new Contact() { Name = "Subramanyam" });
+            ContactList.Add(new Contact() { Name = "Thomas KN" });
+            ContactList.Add(new Contact() { Name = "Raju Bala" });
+            ContactList.Add(new Contact() { Name = "Sudheer Varma" });
+            ContactList.Add(new Contact() { Name = "Test FirstName" });
+            ContactList.Add(new Contact() { Name = "Last Name" });
+            ContactList.Add(new Contact() { Name = "Sudheer Varma" });
+            ContactList.Add(new Contact() { Name = "Test FirstName" });
+            ContactList.Add(new Contact() { Name = "Last Name" });
         }
     }
 }

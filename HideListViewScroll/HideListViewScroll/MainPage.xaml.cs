@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using HideListViewScroll.ViewModels;
 using Xamarin.Forms;
 
 namespace HideListViewScroll
@@ -12,6 +13,7 @@ namespace HideListViewScroll
         public MainPage()
         {
             InitializeComponent();
+            this.BindingContext = new MainPageViewModel();
         }
     }
 }

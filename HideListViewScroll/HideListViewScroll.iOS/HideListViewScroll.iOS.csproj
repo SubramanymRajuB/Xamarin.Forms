@@ -95,6 +95,7 @@
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Renderers\CustomListViewRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
@@ -156,5 +157,11 @@
       <Project>{D6CACBFE-FFDF-4C01-85AF-9F48602FA6DF}</Project>
       <Name>HideListViewScroll</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\right_arrow_enabled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Renderers\" />
   </ItemGroup>
 </Project>

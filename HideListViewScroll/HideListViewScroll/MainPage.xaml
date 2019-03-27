@@ -1,7 +1,31 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:HideListViewScroll" x:Class="HideListViewScroll.MainPage">
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             ios:Page.UseSafeArea="true"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" BackgroundColor="#ecf0f1" xmlns:local="clr-namespace:HideListViewScroll" x:Class="HideListViewScroll.MainPage">
     <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+      <ListView ItemsSource="{Binding ContactList}" Margin="15" ios:ListView.SeparatorStyle="FullWidth"  HasUnevenRows="true" BackgroundColor="White" SeparatorVisibility="None" Footer="">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                <ViewCell>
+                <Grid RowSpacing="0" BackgroundColor="White">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid RowSpacing="0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+                            <Label Grid.Row="0" FontSize="22" Text="{Binding Name}" Grid.Column="0" TextColor="Black" HorizontalOptions="StartAndExpand" VerticalOptions="Center" Margin="10,20,0,20" />
+                            <Image Grid.Row="0" Source="right_arrow_enabled.png" Grid.Column="1" HorizontalOptions="EndAndExpand" VerticalOptions="Center" HeightRequest="25" WidthRequest="25"  Margin="0,2,8,0" />
+                       </Grid>
+                    <BoxView Grid.Row="1" Color="#ededf0" HeightRequest="1.5" HorizontalOptions="FillAndExpand" VerticalOptions="Start"/>
+                    </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate> 
+        </ListView>
     </StackLayout>
 </ContentPage>

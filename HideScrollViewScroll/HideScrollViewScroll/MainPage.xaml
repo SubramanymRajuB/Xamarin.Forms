@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:HideScrollViewScroll" x:Class="HideScrollViewScroll.MainPage">
+   <ScrollView> 
+   <StackLayout Padding="10" x:Name="LayoutRoot" BackgroundColor="White">  
+           <!--Title-->  
+           <Label Text="User Registration :" FontSize="40" TextColor="Black"/>  
+               
+           <!--Userx:Name-->  
+           <Label Text="User Name :" TextColor="Black"   Margin="0,15,0,0"/>  
+           <Entry x:Name="TxtUser" Margin="0,15,0,0"/>  
+  
+           <!--Password-->  
+           <Label Text="Password: " Margin="0,15,0,0" TextColor="Black" />  
+           <Entry IsPassword="true" x:Name="TxtPwd" Margin="0,15,0,0"/>  
+  
+           <!--Address-->  
+           <Label Text="Address: " Margin="0,15,0,0" TextColor="Black" />  
+           <Entry x:Name="TxtAddr"  Margin="0,15,0,0"/> 
+  
+           <!--Phone Number-->  
+           <Label Text="Phone No: " Margin="0,15,0,0" TextColor="Black" />  
+           <Entry x:Name="TxtPhNo" MaxLength="10" Margin="0,15,0,0"/>  
+  
+           <!--Email-->  
+           <Label Text="EmaiID: " Margin="0,15,0,0" TextColor="Black" />  
+           <Entry x:Name="TxtEmail" Margin="0,15,0,0"/>   
+  
+           <!--Age-->  
+           <Label Text="Age: " Margin="0,15,0,0" TextColor="Black" /> 
+            <Entry x:Name="TxtAge" Margin="0,15,0,0"/>  
+  
+           <!--Designation-->  
+           <Label Text="Designation: " Margin="0,15,0,0" TextColor="Black" /> 
+            <Entry x:Name="TxtDesignation" Margin="0,15,0,0"/>  
+  
+           <!--Designation-->  
+           <Label Text="Qualification: " Margin="0,15,0,0" TextColor="Black" /> 
+            <Entry x:Name="TxtQualification" Margin="0,15,0,0"/> 
+  
+           <!--Submit Button-->  
+           <Button BorderColor="Transparent" BackgroundColor="#FF30DABB" Text="Submit"  x:Name="BtnSubmit" Grid.Row="7"/>  
+   </StackLayout>  
+   </ScrollView>
+</ContentPage>

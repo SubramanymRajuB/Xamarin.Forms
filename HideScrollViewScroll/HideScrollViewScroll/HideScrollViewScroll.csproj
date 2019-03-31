@@ -17,4 +17,7 @@
     <Compile Remove="ViewModels\MainPageViewModel.cs" />
     <Compile Remove="Model\Contact.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="README.md" />
+  </ItemGroup>
 </Project>

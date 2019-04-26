@@ -35,8 +35,11 @@ namespace FileUploader.XAML
                 activityIndicator.IsRunning = true;
 
                 var byteData = await AzureStorage.GetFileAsync(ContainerType.Text, uploadedFilename);
-                var text = Encoding.UTF8.GetString(byteData);
-                downloadEditor.Text = text;
+                if (byteData != null)
+                {
+                    var text = Encoding.UTF8.GetString(byteData);
+                    downloadEditor.Text = text;
+                }
 
                 activityIndicator.IsRunning = false;
             }

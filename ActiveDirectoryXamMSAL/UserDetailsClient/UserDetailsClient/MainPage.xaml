@@ -11,24 +11,24 @@
       <Button x:Name="btnSignInSignOut" Margin="20" Text="{Binding OnSignInSignOutTxt}" Clicked="OnSignInSignOut" BackgroundColor="Olive" TextColor="White" VerticalOptions="End" HeightRequest="60" FontAttributes="Bold" HorizontalOptions="FillAndExpand"/>
       <StackLayout x:Name="slUser" IsVisible="False" Padding="5,10">
         <StackLayout Orientation="Horizontal">
-          <Label Text="DisplayName "  TextColor="Black" FontAttributes="Bold" />
-          <Label x:Name="lblDisplayName"  TextColor="Black" />
+          <Label Text="DisplayName " FontSize="Large" TextColor="Black"  FontAttributes="Bold" />
+          <Label x:Name="lblDisplayName"  FontSize="Large" TextColor="Black"  />
         </StackLayout>
         <StackLayout Orientation="Horizontal">
-          <Label Text="GivenName "  TextColor="Black" FontAttributes="Bold" />
-          <Label x:Name="lblGivenName"  TextColor="Black" />
+          <Label Text="GivenName "  FontSize="Large" TextColor="Black"  FontAttributes="Bold" />
+          <Label x:Name="lblGivenName"  FontSize="Large" TextColor="Black"  />
         </StackLayout>
         <StackLayout Orientation="Horizontal">
-          <Label Text="Surname "  TextColor="Black" FontAttributes="Bold" />
-          <Label x:Name="lblSurname"  TextColor="Black" />
+          <Label Text="Surname "  FontSize="Large" TextColor="Black"  FontAttributes="Bold" />
+          <Label x:Name="lblSurname"  FontSize="Large" TextColor="Black"  />
         </StackLayout>
         <StackLayout Orientation="Horizontal">
-          <Label Text="Id "  TextColor="Black" FontAttributes="Bold" />
-          <Label x:Name="lblId"  TextColor="Black" />
+          <Label Text="Id "  FontSize="Large" TextColor="Black"  FontAttributes="Bold" />
+          <Label x:Name="lblId"  FontSize="Large" TextColor="Black"  />
         </StackLayout>
         <StackLayout Orientation="Horizontal">
-          <Label Text="UserPrincipalName "  TextColor="Black" FontAttributes="Bold" />
-          <Label x:Name="lblUserPrincipalName"  TextColor="Black" />
+          <Label Text="UserPrincipalName "  FontSize="Large" TextColor="Black"  FontAttributes="Bold" />
+          <Label x:Name="lblUserPrincipalName"  FontSize="Large" TextColor="Black"  />
         </StackLayout>        
       </StackLayout>
     </StackLayout>
@@ -41,7 +41,7 @@
                        Color="Blue"  
                        BackgroundColor="Transparent"
                        VerticalOptions="Center"/> 
-                     <Label Text="Loading..." TextColor="Black" FontSize="Large"/>  
+                     <Label Text="Loading..." TextColor="Black"  FontSize="Large"/>  
                 </StackLayout>
             </Frame>
          </Grid>

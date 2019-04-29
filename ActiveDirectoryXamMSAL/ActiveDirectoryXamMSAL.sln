@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserDetailsClient.Droid", "UserDetailsClient\UserDetailsClient.Droid\UserDetailsClient.Droid.csproj", "{DD942D28-518D-4C06-A0D9-A7D8AB3F54E7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActiveDirectoryXamMSAL.Droid", "ActiveDirectoryXamMSAL\ActiveDirectoryXamMSAL.Droid\ActiveDirectoryXamMSAL.Droid.csproj", "{DD942D28-518D-4C06-A0D9-A7D8AB3F54E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserDetailsClient.iOS", "UserDetailsClient\UserDetailsClient.iOS\UserDetailsClient.iOS.csproj", "{4546452D-55D8-41CA-B68B-F8D8D827EE4A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActiveDirectoryXamMSAL.iOS", "ActiveDirectoryXamMSAL\ActiveDirectoryXamMSAL.iOS\ActiveDirectoryXamMSAL.iOS.csproj", "{4546452D-55D8-41CA-B68B-F8D8D827EE4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserDetailsClient", "UserDetailsClient\UserDetailsClient\UserDetailsClient.csproj", "{CF72088B-E0A5-401C-A795-531A81E05248}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActiveDirectoryXamMSAL", "ActiveDirectoryXamMSAL\ActiveDirectoryXamMSAL\ActiveDirectoryXamMSAL.csproj", "{CF72088B-E0A5-401C-A795-531A81E05248}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{36FE7FD1-5D6E-4733-8B43-D3A14A3D5539}"
 	ProjectSection(SolutionItems) = preProject

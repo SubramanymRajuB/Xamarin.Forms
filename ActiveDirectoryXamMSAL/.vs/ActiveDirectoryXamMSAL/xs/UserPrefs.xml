@@ -1,24 +1,26 @@
 ﻿<Properties StartupConfiguration="{DD942D28-518D-4C06-A0D9-A7D8AB3F54E7}|Default">
-  <MonoDevelop.Ide.ItemProperties.UserDetailsClient.Droid PreferredExecutionTarget="Android.GalaxyS7_API_27" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="UserDetailsClient/UserDetailsClient/App.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ActiveDirectoryXamMSAL/ActiveDirectoryXamMSAL.Droid/Properties/AndroidManifest.xml">
     <Files>
-      <File FileName="UserDetailsClient/UserDetailsClient/App.cs" Line="1" Column="1" />
+      <File FileName="ActiveDirectoryXamMSAL.sln" Line="6" Column="108" />
+      <File FileName="ActiveDirectoryXamMSAL/ActiveDirectoryXamMSAL/App.cs" Line="22" Column="78" />
+      <File FileName="ActiveDirectoryXamMSAL/ActiveDirectoryXamMSAL/MainPage.xaml" Line="51" Column="15" />
+      <File FileName="ActiveDirectoryXamMSAL/ActiveDirectoryXamMSAL/MainPage.xaml.cs" Line="13" Column="33" />
+      <File FileName="ActiveDirectoryXamMSAL/ActiveDirectoryXamMSAL.Droid/MainActivity.cs" Line="1" Column="1" />
+      <File FileName="ActiveDirectoryXamMSAL/ActiveDirectoryXamMSAL.Droid/MainPageRenderer.cs" Line="9" Column="41" />
+      <File FileName="ActiveDirectoryXamMSAL/ActiveDirectoryXamMSAL.iOS/Main.cs" Line="8" Column="33" />
+      <File FileName="ActiveDirectoryXamMSAL/ActiveDirectoryXamMSAL.iOS/MainPageRenderer.cs" Line="13" Column="6" />
+      <File FileName="ActiveDirectoryXamMSAL/ActiveDirectoryXamMSAL.iOS/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="ActiveDirectoryXamMSAL/ActiveDirectoryXamMSAL.iOS/Info.plist" />
+      <File FileName="ActiveDirectoryXamMSAL/ActiveDirectoryXamMSAL.Droid/Properties/AssemblyInfo.cs" Line="9" Column="49" />
+      <File FileName="ActiveDirectoryXamMSAL/ActiveDirectoryXamMSAL/GlobalSuppressions.cs" Line="7" Column="258" />
+      <File FileName="ActiveDirectoryXamMSAL/ActiveDirectoryXamMSAL.Droid/Resources/Resource.Designer.cs" Line="1" Column="1" />
+      <File FileName="ActiveDirectoryXamMSAL/ActiveDirectoryXamMSAL.Droid/Properties/AndroidManifest.xml" Line="1" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Option id="ShowAllFiles" value="True" />
-          <Node name="ActiveDirectoryXamMSAL" expanded="True">
-            <Node name="UserDetailsClient" expanded="True" selected="True" />
-            <Node name="UserDetailsClient.Droid" expanded="True" />
-            <Node name="UserDetailsClient.iOS" expanded="True" />
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ActiveDirectoryXamMSAL.Droid PreferredExecutionTarget="Android.Pixel_2_XL_API_27" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.ActiveDirectoryXamMSAL.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

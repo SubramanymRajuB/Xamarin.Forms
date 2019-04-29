@@ -16,6 +16,7 @@
             <ActivityIndicator x:Name="activityIndicator" />
             <Button x:Name="downloadButton" 
                     Text="Download Image" 
+                    IsVisible="false"
                     Clicked="OnDownloadImageButtonClicked"
                     IsEnabled="false" />
             <Image x:Name="downloadedImage" />

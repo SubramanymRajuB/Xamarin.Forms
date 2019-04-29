@@ -17,6 +17,7 @@
         <ActivityIndicator x:Name="activityIndicator" />
         <Button x:Name="downloadButton"
                 Text="Download" 
+                IsVisible="false"
                 Clicked="OnDownloadButtonClicked"
                 IsEnabled="false" />
         <Editor x:Name="downloadEditor"

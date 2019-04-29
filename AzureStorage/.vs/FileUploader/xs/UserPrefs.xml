@@ -1,39 +1,56 @@
 ﻿<Properties StartupConfiguration="{98E77FB8-1779-42B3-893F-4F09F5C226E9}|Default">
   <MonoDevelop.Ide.ItemProperties.FileUploader.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.GalaxyS7_API_27" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="FileUploader/Constants.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FileUploader/AzureStorage.cs">
     <Files>
-      <File FileName="FileUploader/XAML/FileUploaderPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="FileUploader/XAML/FileUploaderPage.xaml" Line="10" Column="1" />
-      <File FileName="FileUploader/XAML/ImageFileUploaderPage.xaml" Line="25" Column="1" />
-      <File FileName="FileUploader/XAML/ImageFileUploaderPage.xaml.cs" Line="24" Column="51" />
-      <File FileName="FileUploader/Constants.cs" Line="6" Column="11" />
-      <File FileName="FileUploader/AzureStorage.cs" Line="51" Column="47" />
+      <File FileName="FileUploader/XAML/FileUploaderPage.xaml" />
+      <File FileName="FileUploader/XAML/ImageFileUploaderPage.xaml" />
+      <File FileName="FileUploader/XAML/ImageFileUploaderPage.xaml.cs" Line="26" Column="1" />
+      <File FileName="FileUploader/Constants.cs" Line="6" Column="78" />
+      <File FileName="FileUploader/AzureStorage.cs" Line="59" Column="41" />
       <File FileName="FileUploader/ContainerType.cs" Line="3" Column="17" />
-      <File FileName="FileUploader/XAML/TextFileBrowserPage.xaml.cs" Line="21" Column="1" />
+      <File FileName="FileUploader/XAML/TextFileBrowserPage.xaml.cs" Line="35" Column="1" />
       <File FileName="FileUploader.iOS/Main.cs" Line="17" Column="1" />
-      <File FileName="FileUploader/XAML/TextFileBrowserPage.xaml" Line="28" Column="1" />
-      <File FileName="FileUploader/XAML/TextFileUploaderPage.xaml" Line="27" Column="1" />
+      <File FileName="FileUploader/XAML/TextFileBrowserPage.xaml" />
+      <File FileName="FileUploader/XAML/TextFileUploaderPage.xaml" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FileUploader" expanded="True">
+            <Node name="FileUploader" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="XAML" expanded="True">
+                <Node name="ImageFileUploaderPage.xaml" expanded="True" />
+                <Node name="TextFileBrowserPage.xaml" expanded="True" />
+              </Node>
+              <Node name="AzureStorage.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.FileUploader.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B1843457-E949-42DA-9E57-A0F1341E3F0C" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/admin/Documents/MUGH2019/SourceCode/AzureStorage/FileUploader/AzureStorage.cs" relfile="FileUploader/AzureStorage.cs" line="24" column="1" />
-      <Breakpoint file="/Users/admin/Documents/MUGH2019/SourceCode/AzureStorage/FileUploader/AzureStorage.cs" relfile="FileUploader/AzureStorage.cs" line="30" column="1" />
-      <Breakpoint file="/Users/admin/Documents/MUGH2019/SourceCode/AzureStorage/FileUploader/AzureStorage.cs" relfile="FileUploader/AzureStorage.cs" line="60" column="1" />
-      <Breakpoint file="/Users/admin/Documents/MUGH2019/SourceCode/AzureStorage/FileUploader/AzureStorage.cs" relfile="FileUploader/AzureStorage.cs" line="45" column="1" />
-      <Breakpoint file="/Users/admin/Documents/MUGH2019/SourceCode/AzureStorage/FileUploader/AzureStorage.cs" relfile="FileUploader/AzureStorage.cs" line="35" column="1" />
-      <Breakpoint file="/Users/admin/Documents/MUGH2019/SourceCode/AzureStorage/FileUploader/XAML/TextFileBrowserPage.xaml.cs" relfile="FileUploader/XAML/TextFileBrowserPage.xaml.cs" line="35" column="1" />
-      <Breakpoint file="/Users/admin/Documents/MUGH2019/SourceCode/AzureStorage/FileUploader/XAML/TextFileBrowserPage.xaml.cs" relfile="FileUploader/XAML/TextFileBrowserPage.xaml.cs" line="18" column="1" />
-      <Breakpoint file="/Users/admin/Documents/MUGH2019/SourceCode/AzureStorage/FileUploader/XAML/TextFileBrowserPage.xaml.cs" relfile="FileUploader/XAML/TextFileBrowserPage.xaml.cs" line="21" column="1" />
-      <Breakpoint file="/Users/admin/Documents/MUGH2019/SourceCode/AzureStorage/FileUploader/AzureStorage.cs" relfile="FileUploader/AzureStorage.cs" line="63" column="1" />
-      <Breakpoint file="/Users/admin/Documents/MUGH2019/SourceCode/AzureStorage/FileUploader/AzureStorage.cs" relfile="FileUploader/AzureStorage.cs" line="66" column="1" />
-      <Breakpoint file="/Users/admin/Documents/MUGH2019/SourceCode/AzureStorage/FileUploader/XAML/ImageFileUploaderPage.xaml.cs" relfile="FileUploader/XAML/ImageFileUploaderPage.xaml.cs" line="26" column="1" />
-      <Breakpoint file="/Users/admin/Documents/MUGH2019/SourceCode/AzureStorage/FileUploader/AzureStorage.cs" relfile="FileUploader/AzureStorage.cs" line="48" column="1" />
-      <Breakpoint file="/Users/admin/Documents/MUGH2019/SourceCode/AzureStorage/FileUploader/AzureStorage.cs" relfile="FileUploader/AzureStorage.cs" line="46" column="1" />
-      <Breakpoint file="/Users/admin/Documents/MUGH2019/SourceCode/AzureStorage/FileUploader/AzureStorage.cs" relfile="FileUploader/AzureStorage.cs" line="54" column="1" />
+      <Breakpoint file="/Users/admin/Documents/Subbu/Desktop/Sample/Xamarin/XFArticles/AzureStorage/FileUploader/AzureStorage.cs" relfile="FileUploader/AzureStorage.cs" line="24" column="1" />
+      <Breakpoint file="/Users/admin/Documents/Subbu/Desktop/Sample/Xamarin/XFArticles/AzureStorage/FileUploader/AzureStorage.cs" relfile="FileUploader/AzureStorage.cs" line="30" column="1" />
+      <Breakpoint file="/Users/admin/Documents/Subbu/Desktop/Sample/Xamarin/XFArticles/AzureStorage/FileUploader/AzureStorage.cs" relfile="FileUploader/AzureStorage.cs" line="60" column="1" />
+      <Breakpoint file="/Users/admin/Documents/Subbu/Desktop/Sample/Xamarin/XFArticles/AzureStorage/FileUploader/AzureStorage.cs" relfile="FileUploader/AzureStorage.cs" line="45" column="1" />
+      <Breakpoint file="/Users/admin/Documents/Subbu/Desktop/Sample/Xamarin/XFArticles/AzureStorage/FileUploader/AzureStorage.cs" relfile="FileUploader/AzureStorage.cs" line="35" column="1" />
+      <Breakpoint file="/Users/admin/Documents/Subbu/Desktop/Sample/Xamarin/XFArticles/AzureStorage/FileUploader/XAML/TextFileBrowserPage.xaml.cs" relfile="FileUploader/XAML/TextFileBrowserPage.xaml.cs" line="35" column="1" />
+      <Breakpoint file="/Users/admin/Documents/Subbu/Desktop/Sample/Xamarin/XFArticles/AzureStorage/FileUploader/XAML/TextFileBrowserPage.xaml.cs" relfile="FileUploader/XAML/TextFileBrowserPage.xaml.cs" line="18" column="1" />
+      <Breakpoint file="/Users/admin/Documents/Subbu/Desktop/Sample/Xamarin/XFArticles/AzureStorage/FileUploader/XAML/TextFileBrowserPage.xaml.cs" relfile="FileUploader/XAML/TextFileBrowserPage.xaml.cs" line="21" column="1" />
+      <Breakpoint file="/Users/admin/Documents/Subbu/Desktop/Sample/Xamarin/XFArticles/AzureStorage/FileUploader/AzureStorage.cs" relfile="FileUploader/AzureStorage.cs" line="63" column="1" />
+      <Breakpoint file="/Users/admin/Documents/Subbu/Desktop/Sample/Xamarin/XFArticles/AzureStorage/FileUploader/AzureStorage.cs" relfile="FileUploader/AzureStorage.cs" line="66" column="1" />
+      <Breakpoint file="/Users/admin/Documents/Subbu/Desktop/Sample/Xamarin/XFArticles/AzureStorage/FileUploader/XAML/ImageFileUploaderPage.xaml.cs" relfile="FileUploader/XAML/ImageFileUploaderPage.xaml.cs" line="26" column="1" />
+      <Breakpoint file="/Users/admin/Documents/Subbu/Desktop/Sample/Xamarin/XFArticles/AzureStorage/FileUploader/AzureStorage.cs" relfile="FileUploader/AzureStorage.cs" line="48" column="1" />
+      <Breakpoint file="/Users/admin/Documents/Subbu/Desktop/Sample/Xamarin/XFArticles/AzureStorage/FileUploader/AzureStorage.cs" relfile="FileUploader/AzureStorage.cs" line="46" column="1" />
+      <Breakpoint file="/Users/admin/Documents/Subbu/Desktop/Sample/Xamarin/XFArticles/AzureStorage/FileUploader/AzureStorage.cs" relfile="FileUploader/AzureStorage.cs" line="54" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

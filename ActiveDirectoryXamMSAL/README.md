@@ -36,11 +36,7 @@ To run this sample you will need:
 You can get a Microsoft Account for free by choosing the Sign up option while visiting [https://www.microsoft.com/en-us/outlook-com/](https://www.microsoft.com/en-us/outlook-com/).
 You can get an Office365 office subscription, which will give you an Azure AD account, at [https://products.office.com/en-us/try](https://products.office.com/en-us/try).
 
-### Step 1:  Clone or download this repository
-
-From your shell or command line:
-
-`git clone https://github.com/Azure-Samples/active-directory-xamarin-native-v2.git`
+### Step 1:  Download code from https://github.com/SubramanymRajuB/Xamarin.Forms/tree/master/ActiveDirectoryXamMSAL.
 
 > Given that the name of the sample is pretty long, and so are the name of the referenced NuGet packages, you might want to clone it in a folder close to the root of your hard drive, to avoid file size limitations on Windows.
 

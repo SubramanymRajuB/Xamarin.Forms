@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="DatePickerFromat.MainPage"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+    ios:Page.UseSafeArea="true" NavigationPage.HasNavigationBar="False">
+    <Grid>
+    <Grid>
+        <Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!--TitleBar-->  
+         <Grid Grid.Row="0" x:Name="gridUser" BackgroundColor="#00548B" Padding="12" >
+             <Label Text="Format Date Picker" TextColor="#ffffff" HorizontalOptions="Center" VerticalOptions="Center" FontSize="17" FontAttributes="Bold" />
+         </Grid>
+        <ScrollView Grid.Row="1">
+        <StackLayout Orientation="Vertical" Padding="10,0,10,0">
+          <Label Text="START DATE" Margin="10,0,0,0" TextColor="#BFBFBF" FontSize="14"/>
+          <DatePicker BackgroundColor="White" Margin="10,0,0,10" Date="{Binding StartTime}" HeightRequest="40" FontSize="15"/>
+
+          <Label Text="END DATE" Margin="10,0,0,0" TextColor="#BFBFBF" FontSize="14"/>
+          <DatePicker BackgroundColor="White" Margin="10,0,0,10" Date="{Binding EndTime}" HeightRequest="40" FontSize="15"/>
+
+          <Label Text="DESCRIPTION" Margin="10,0,0,0" TextColor="#BFBFBF" FontSize="14"/>
+          <Editor Placeholder="" FontSize="14" PlaceholderColor="#b9b9b9" TextColor="#000000" BackgroundColor="#f5f5f5" Margin="10,0,0,10"  VerticalOptions="Start" AutoSize="TextChanges"/>
+
+          <StackLayout Orientation="Horizontal">
+            <Button Text="Cancel" HeightRequest="40" HorizontalOptions="FillAndExpand" BackgroundColor="White" TextColor="#00548B" BorderColor="#00548B" BorderWidth="1" Margin="10,0,0,0" />
+            <Button Text="Submit" HeightRequest="40" HorizontalOptions="FillAndExpand" BackgroundColor="White" TextColor="#00548B" BorderColor="#00548B" BorderWidth="1"/>
+          </StackLayout>
+
+        </StackLayout>
+        </ScrollView>
+    </Grid>
+        </Grid>
+</ContentPage>
